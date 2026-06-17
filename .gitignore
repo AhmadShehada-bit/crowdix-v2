@@ -1,6 +1,7 @@
 # Root repo hygiene
 .DS_Store
 Thumbs.db
+Open-Design-Landing/
 
 # Frontend build and dependency outputs
 frontend/node_modules/
