@@ -56,7 +56,7 @@ export default async function FounderDetailPage({ params }: FounderPageProps) {
             <span>{founder.role}</span>
             <span>Founder profile</span>
           </div>
-          <div className="grid gap-6 xl:grid-cols-[0.75fr_1.25fr]">
+          <div className="grid gap-6 xl:grid-cols-[0.68fr_1.32fr]">
             <Reveal>
               <PortraitFrame portrait={founder.portrait} />
             </Reveal>
@@ -146,9 +146,9 @@ export default async function FounderDetailPage({ params }: FounderPageProps) {
         cta={{
           ...siteConfig.consultation,
           primaryHref: "/projects",
-          primaryLabel: "Back to the archive",
+          primaryLabel: "Back to projects",
           secondaryHref: "/services",
-          secondaryLabel: "See capabilities",
+          secondaryLabel: "Explore services",
         }}
         relatedHref={relatedProjects[0] ? `/projects/${relatedProjects[0].slug}` : "/projects"}
       />

@@ -18,7 +18,7 @@ export default function Hero({ featuredProjects }: HeroProps) {
             <div className="max-w-4xl">
               <span className="section-kicker">
                 {siteConfig.hero.eyebrow}
-                <span className="text-faint">/ N° 01</span>
+                <span className="text-faint">/ No. 01</span>
               </span>
               <h1 className="display-title">
                 <span className="block">{siteConfig.hero.titleLead}</span>
@@ -31,13 +31,13 @@ export default function Hero({ featuredProjects }: HeroProps) {
               <div className="mt-8 flex flex-wrap gap-3">
                 <Link
                   href={siteConfig.hero.primaryCta.href}
-                  className="rounded-full bg-accent px-6 py-3.5 text-sm font-semibold text-black transition hover:-translate-y-0.5"
+                  className="rounded-full bg-accent px-5 py-3 text-sm font-semibold text-black transition hover:-translate-y-0.5"
                 >
                   {siteConfig.hero.primaryCta.label}
                 </Link>
                 <Link
                   href={siteConfig.hero.secondaryCta.href}
-                  className="rounded-full border border-white/10 bg-white/4 px-6 py-3.5 text-sm font-semibold text-soft transition hover:-translate-y-0.5 hover:border-accent/50 hover:text-foreground"
+                  className="rounded-full border border-white/10 bg-white/4 px-5 py-3 text-sm font-semibold text-soft transition hover:-translate-y-0.5 hover:border-accent/50 hover:text-foreground"
                 >
                   {siteConfig.hero.secondaryCta.label}
                 </Link>
@@ -69,12 +69,12 @@ export default function Hero({ featuredProjects }: HeroProps) {
               </div>
               <div className="relative z-10">
                 <div className="flex items-center justify-between text-[10px] font-semibold uppercase tracking-[0.22em] text-faint">
-                  <span>Plate N° 01 / Crowdix</span>
-                  <span>Signal · System · Surface</span>
+                  <span>Studio plate / Crowdix</span>
+                  <span>Direction / Systems / Surface</span>
                 </div>
                 <div className="mt-8 rounded-[28px] border border-white/10 bg-black/15 p-6">
                   <h2 className="font-display text-[clamp(1.8rem,3vw,2.8rem)] font-black tracking-[-0.04em] text-foreground">
-                    Selected proof before service claims.
+                    Selected work before service claims.
                   </h2>
                   <div className="mt-6 grid gap-3 sm:grid-cols-2">
                     {siteConfig.hero.proofPoints.map((item) => (
@@ -96,7 +96,7 @@ export default function Hero({ featuredProjects }: HeroProps) {
                 {leadProject ? (
                   <div className="mt-6 rounded-[28px] border border-white/10 bg-white/4 p-5">
                     <p className="text-[10px] font-semibold uppercase tracking-[0.22em] text-faint">
-                      Featured archive plate
+                      Featured case study
                     </p>
                     <div className="mt-4 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
                       <div>

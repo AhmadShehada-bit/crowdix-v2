@@ -12,7 +12,7 @@ export default function PortraitFrame({
   return (
     <div
       className={`portrait-frame surface-outline relative overflow-hidden rounded-[32px] border border-white/10 ${
-        compact ? "min-h-[360px]" : "min-h-[480px]"
+        compact ? "min-h-[280px]" : "min-h-[420px]"
       }`}
       data-label={portrait.label}
       style={{
@@ -20,11 +20,11 @@ export default function PortraitFrame({
       }}
     >
       <div className="absolute inset-0 bg-[linear-gradient(180deg,transparent,rgba(0,0,0,0.24)_48%,rgba(0,0,0,0.62))]" />
-      <div className="absolute inset-x-[18%] top-[12%] h-[62%] rounded-[999px] border border-white/8 bg-white/6 blur-[2px]" />
-      <div className="absolute inset-x-[22%] top-[17%] h-[48%] rounded-[999px] bg-[linear-gradient(180deg,rgba(255,255,255,0.16),rgba(255,255,255,0.02))]" />
-      <div className="absolute inset-x-[16%] bottom-[7%] top-[46%] rounded-[44px] border border-white/8 bg-[linear-gradient(180deg,rgba(255,255,255,0.12),rgba(255,255,255,0.02))]" />
-      <div className="absolute bottom-10 left-8 right-8 z-10">
-        <p className="font-display text-[clamp(2.8rem,7vw,5rem)] font-black tracking-[-0.06em] text-white/86">
+      <div className="absolute inset-x-[22%] top-[12%] h-[54%] rounded-[999px] border border-white/8 bg-white/6 blur-[2px]" />
+      <div className="absolute inset-x-[26%] top-[18%] h-[40%] rounded-[999px] bg-[linear-gradient(180deg,rgba(255,255,255,0.16),rgba(255,255,255,0.02))]" />
+      <div className="absolute inset-x-[19%] bottom-[7%] top-[44%] rounded-[40px] border border-white/8 bg-[linear-gradient(180deg,rgba(255,255,255,0.12),rgba(255,255,255,0.02))]" />
+      <div className="absolute bottom-8 left-7 right-7 z-10">
+        <p className="font-display text-[clamp(2.4rem,6vw,4.2rem)] font-black tracking-[-0.06em] text-white/86">
           {portrait.monogram}
         </p>
       </div>

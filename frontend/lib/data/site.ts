@@ -8,54 +8,54 @@ export const siteConfig: SiteConfig = {
     { href: "/founders", label: "Founders", index: "03" },
   ],
   hero: {
-    eyebrow: "Crowdix portfolio direction",
-    titleLead: "Curated AI systems,",
-    titleSupport: "websites, and",
-    titleEmphasis: "brand proof",
+    eyebrow: "Selected work and studio systems",
+    titleLead: "Automation systems,",
+    titleSupport: "editorial websites, and",
+    titleEmphasis: "brand direction",
     description:
-      "Crowdix is a premium AI agency portfolio built like an editorial archive. Case studies lead. Founder/operator profiles add authorship. Services explain the method behind the visible work.",
+      "Crowdix is a founder-led studio shaping automation systems, editorial web experiences, and premium brand presentation for teams that want visible proof before promises.",
     primaryCta: {
       href: "/projects",
-      label: "Browse selected work",
+      label: "View selected work",
     },
     secondaryCta: {
       href: "/#consultation",
-      label: "Quiet consult",
+      label: "Start a conversation",
     },
     stats: [
-      { value: "04", label: "case studies in archive" },
-      { value: "02", label: "founders with visible roles" },
-      { value: "100%", label: "frontend-only scaffold" },
+      { value: "04", label: "featured case studies" },
+      { value: "02", label: "studio leads" },
+      { value: "03", label: "core capability areas" },
     ],
     proofPoints: [
       {
         label: "01 / Selected work",
-        title: "Project plates and evidence-led browsing",
+        title: "Case studies that lead with proof",
         copy:
-          "Featured projects set the tone for the whole site and keep the first impression rooted in real proof.",
+          "Featured projects set the tone for the whole site and keep the first impression rooted in visible results.",
       },
       {
         label: "02 / Case studies",
-        title: "Long-form project detail pages",
+        title: "Long-form delivery narratives",
         copy:
-          "Each case study holds challenge, diagnosis, system architecture, shipped modules, and honest outcomes.",
+          "Each case study holds challenge, diagnosis, system architecture, shipped modules, and outcome notes.",
       },
       {
         label: "03 / Founder roles",
-        title: "Portrait-safe creator profiles",
+        title: "Founder profiles with authorship",
         copy:
-          "Founder pages show philosophy, specialties, links, and associated proof without resorting to generic executive layouts.",
+          "Founder pages keep philosophy, specialties, and associated proof visible without drifting into generic executive layouts.",
       },
     ],
   },
   consultation: {
-    title: "A quiet follow-up after the archive",
+    title: "Continue the conversation after the work",
     description:
-      "The consultation surface should sit after the work, not interrupt it: what caught attention, which system feels urgent, and what kind of reply path makes sense next.",
+      "Share the project, bottleneck, or system you want to sharpen and Crowdix can respond with the most relevant next step.",
     primaryHref: "/projects",
-    primaryLabel: "Ask about a project",
+    primaryLabel: "Discuss a project",
     secondaryHref: "/services",
-    secondaryLabel: "See capability context",
+    secondaryLabel: "Explore services",
     prompts: [
       {
         label: "Reference case",
@@ -80,28 +80,28 @@ export const siteConfig: SiteConfig = {
       featuredProjects: {
         eyebrow: "Selected work",
         index: "I. 001 / 006",
-        title: "Featured projects are the homepage",
+        title: "Featured projects lead the homepage",
         description:
-          "The first pass should feel like an exhibition wall: systems, brand proof, editorial web work, and founder fingerprints before any capability catalogue tries to sell.",
+          "The first pass should feel like a considered wall of proof: systems, brand direction, editorial web work, and founder fingerprints before capability language steps in.",
       },
       capabilities: {
         eyebrow: "Capabilities",
         index: "II. 002 / 006",
         title: "Capabilities stay attached to proof",
         description:
-          "Crowdix does not lead with generic agency packages. Each service exists to explain the method behind visible systems, design decisions, and shipped operator tools.",
+          "Crowdix does not lead with interchangeable packages. Each service exists to explain the method behind visible systems, design decisions, and shipped operator tools.",
       },
       founders: {
         eyebrow: "Founders",
         index: "III. 003 / 006",
-        title: "The founders are visible through the work",
+        title: "The founders stay visible through the work",
         description:
-          "Profiles should read like maker pages: point of view, role, specialties, and project associations. No executive headshot banners, no inflated bios, no fake platform chrome.",
+          "Profiles should read like maker pages: point of view, role, specialties, and project associations. No headshot banners, inflated bios, or generic platform chrome.",
       },
       archivePosture: {
         title: "Case studies come before service claims",
         description:
-          "The Crowdix reference direction is an editorial archive, not a dashboard or SaaS shell. Projects lead. Services support. Founder profiles humanize the proof. The CTA follows only after visitors understand what kind of work they are seeing.",
+          "Crowdix is built like an editorial studio site, not a dashboard or software shell. Projects lead. Services support. Founder profiles humanize the proof. The CTA follows once visitors understand the kind of work they are seeing.",
       },
     },
     projects: {
@@ -123,7 +123,7 @@ export const siteConfig: SiteConfig = {
       index: "I. 001 / 001",
       title: "Work-led founder profiles with portrait-safe framing",
       description:
-        "These pages are built to hold real people, real specialties, and project associations later. The layout protects portrait composition instead of forcing faces into wide marketing banners.",
+        "These pages hold real people, real specialties, and the work attached to them. The layout protects portrait composition instead of forcing faces into wide marketing banners.",
     },
     projectDetail: {
       narrative: {
@@ -167,18 +167,18 @@ export const siteConfig: SiteConfig = {
       links: [
         { label: "Services", href: "/services" },
         { label: "Founders", href: "/founders" },
-        { label: "Quiet consult", href: "/#consultation" },
+        { label: "Discuss a project", href: "/#consultation" },
       ],
     },
     {
       title: "Direction",
       links: [
-        { label: "Portfolio-first hierarchy", href: "/projects" },
+        { label: "Case-study hierarchy", href: "/projects" },
         { label: "Founder-led profiles", href: "/founders" },
-        { label: "Frontend-only scaffold", href: "/services" },
+        { label: "Automation and brand systems", href: "/services" },
       ],
     },
   ],
   footerStatement:
-    "A premium AI portfolio studio for selected automation systems, brand direction, editorial websites, operator tools, and content operations. Public-facing, proof-led, and prepared for structured data later.",
+    "A founder-led studio for automation systems, editorial websites, operator tools, and brand direction. Built to make the work legible before the promises start.",
 };

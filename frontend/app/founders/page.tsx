@@ -27,7 +27,7 @@ export default function FoundersPage() {
         {founders.length === 0 ? (
           <EmptyState
             title="No founder profiles yet"
-            description="Founder records will appear here once they are ready. The interface is already prepared for a later data source."
+            description="Founder profiles will appear here once they are ready."
             actionHref="/projects"
             actionLabel="See project proof"
           />

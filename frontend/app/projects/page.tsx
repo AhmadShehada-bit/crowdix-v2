@@ -26,7 +26,7 @@ export default function ProjectsPage() {
         {projects.length === 0 ? (
           <EmptyState
             title="No projects published yet"
-            description="Project records will live here once the archive is ready. The page structure is already prepared for a future Supabase-backed collection."
+            description="Project records will appear here once the archive is ready."
             actionHref="/services"
             actionLabel="Browse capabilities"
           />

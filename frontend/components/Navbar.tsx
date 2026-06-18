@@ -45,24 +45,24 @@ export default function Navbar() {
         hidden ? "-translate-y-full" : "translate-y-0"
       }`}
     >
-      <div className="page-shell flex flex-col gap-4 py-4 lg:flex-row lg:items-center lg:justify-between lg:gap-6 lg:py-5">
-        <div className="flex flex-wrap items-center gap-4">
+      <div className="page-shell flex flex-col gap-3 py-3 lg:flex-row lg:items-center lg:justify-between lg:gap-5 lg:py-3.5">
+        <div className="flex flex-wrap items-center gap-3">
           <Link
             href="/"
-            className="inline-flex items-center gap-3 font-display text-lg font-extrabold tracking-[-0.03em] text-foreground"
+            className="inline-flex items-center gap-3 font-display text-base font-extrabold tracking-[-0.03em] text-foreground sm:text-lg"
           >
-            <span className="grid size-10 place-items-center rounded-full border border-white/10 bg-gradient-to-br from-white/10 to-white/5 text-accent">
+            <span className="grid size-9 place-items-center rounded-full border border-white/10 bg-gradient-to-br from-white/10 to-white/5 text-accent">
               C
             </span>
             <span>Crowdix</span>
           </Link>
-          <span className="hidden border-l border-white/10 pl-4 text-[10px] font-semibold uppercase tracking-[0.18em] text-faint sm:inline">
-            Premium AI portfolio
+          <span className="hidden border-l border-white/10 pl-3 text-[9px] font-semibold uppercase tracking-[0.18em] text-faint sm:inline">
+            Premium digital studio
           </span>
         </div>
 
-        <div className="flex flex-col gap-3 lg:flex-1 lg:items-end">
-          <ul className="grid grid-cols-2 gap-2 sm:flex sm:flex-wrap sm:items-center sm:gap-5">
+        <div className="flex flex-col gap-2.5 lg:flex-1 lg:items-end">
+          <ul className="grid grid-cols-2 gap-2 sm:flex sm:flex-wrap sm:items-center sm:gap-3">
             {siteConfig.navLinks.map((link) => {
               const active =
                 link.href === "/"
@@ -73,7 +73,7 @@ export default function Navbar() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className={`inline-flex w-full items-center justify-between gap-2 rounded-full px-3 py-2 text-sm font-semibold transition sm:w-auto sm:justify-start ${
+                    className={`inline-flex w-full items-center justify-between gap-2 rounded-full px-3 py-1.5 text-[13px] font-semibold transition sm:w-auto sm:justify-start ${
                       active
                         ? "bg-white/8 text-foreground"
                         : "text-soft hover:bg-white/5 hover:text-accent"
@@ -92,9 +92,9 @@ export default function Navbar() {
           <div className="flex flex-wrap items-center gap-3">
             <Link
               href="/#consultation"
-              className="rounded-full border border-white/10 bg-white/4 px-5 py-3 text-sm font-semibold text-soft transition hover:-translate-y-0.5 hover:border-accent/50 hover:text-foreground"
+              className="rounded-full border border-white/10 bg-white/4 px-4 py-2.5 text-[13px] font-semibold text-soft transition hover:-translate-y-0.5 hover:border-accent/50 hover:text-foreground"
             >
-              Quiet consult
+              Discuss a project
             </Link>
           </div>
         </div>

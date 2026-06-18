@@ -2,18 +2,21 @@ import type { Founder } from "@/types";
 
 export const founders: Founder[] = [
   {
-    slug: "ahmed-hafez",
-    name: "Ahmed Hafez",
-    role: "AI Automation Strategist",
+    slug: "ahmed-shehada",
+    name: "Ahmed Shehada",
+    role: "AI Automation & Web Systems Lead",
     shortBio:
-      "Ahmed maps repeated work into clear operating systems: intake logic, routing flows, knowledge scaffolds, and implementation-ready architecture.",
+      "Ahmed turns operational friction into clear systems. He leads AI-assisted workflow design, business automation, and web implementation that helps teams move faster without losing context.",
     philosophy:
-      "Good automation should feel quieter after launch than it did during design. The real signal is reduced friction, cleaner ownership, and fewer invisible handoffs.",
+      "Useful automation should not feel louder than the work itself. The right system reduces drag, clarifies ownership, and makes the next decision easier for the team using it.",
     specialties: [
-      "AI workflows",
-      "Backend logic",
-      "Operator systems",
-      "Solution architecture",
+      "AI workflow design",
+      "Business automation",
+      "Web systems",
+      "Prompt systems",
+      "Process mapping",
+      "Content operations",
+      "Client-facing AI tools",
     ],
     projectSlugs: [
       "ops-orchestrator",
@@ -22,7 +25,7 @@ export const founders: Founder[] = [
     ],
     portrait: {
       label: "Automation lead",
-      monogram: "AH",
+      monogram: "AS",
       accent: "oklch(72% 0.15 210 / 0.28)",
       support: "oklch(64% 0.18 300 / 0.2)",
     },
@@ -32,18 +35,21 @@ export const founders: Founder[] = [
     ],
   },
   {
-    slug: "lina-faris",
-    name: "Lina Faris",
-    role: "AI Design and Brand Systems Lead",
+    slug: "karam-al-hams",
+    name: "Karam Al-Hams",
+    role: "AI Design & Brand Systems Lead",
     shortBio:
-      "Lina shapes the visual proof: brand systems, editorial web direction, AI-assisted image studies, and the design language that keeps premium work coherent.",
+      "Karam translates positioning into visual systems that feel sharp, credible, and repeatable. He leads brand direction, landing pages, and AI-assisted design workflows that keep presentation aligned with the work.",
     philosophy:
-      "Taste is not surface polish. It is a system of choices that keeps a website, a case study, and an interface speaking in the same voice even when the medium changes.",
+      "Brand direction matters when it makes decisions easier. Good design systems give teams a repeatable visual language, not just a polished launch week.",
     specialties: [
       "Brand systems",
-      "Editorial UX",
+      "AI-assisted design",
+      "Landing pages",
       "Visual direction",
-      "AI image studies",
+      "Creative automation",
+      "Portfolio storytelling",
+      "UI presentation",
     ],
     projectSlugs: [
       "atelier-brand-atlas",
@@ -52,13 +58,13 @@ export const founders: Founder[] = [
     ],
     portrait: {
       label: "Design lead",
-      monogram: "LF",
+      monogram: "KA",
       accent: "oklch(64% 0.18 300 / 0.28)",
       support: "oklch(72% 0.15 210 / 0.22)",
     },
     links: [
       { label: "Behance", href: "https://www.behance.net/" },
-      { label: "Email", href: "mailto:lina@crowdix.studio" },
+      { label: "Email", href: "mailto:karam@crowdix.studio" },
     ],
   },
 ];

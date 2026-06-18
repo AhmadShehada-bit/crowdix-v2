@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="section-rule">
           <span className="roman">VII.</span>
           <span>Footer</span>
-          <span>Public routes only</span>
+          <span>Studio navigation</span>
         </div>
 
         <div className="grid gap-8 lg:grid-cols-[1.2fr_0.8fr_0.8fr_0.8fr]">

@@ -12,14 +12,14 @@ export default function FounderCard({ founder }: FounderCardProps) {
 
   return (
     <article className="glass-panel rounded-[30px] p-5 sm:p-6">
-      <div className="grid gap-5 lg:grid-cols-[0.82fr_1.18fr]">
+      <div className="grid gap-5 lg:grid-cols-[0.72fr_1.28fr]">
         <PortraitFrame portrait={founder.portrait} compact />
         <div className="flex flex-col justify-between gap-5">
           <div>
             <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-accent">
               {founder.name}
             </p>
-            <h3 className="mt-3 font-display text-3xl font-black tracking-[-0.04em] text-foreground">
+            <h3 className="mt-3 font-display text-[clamp(1.75rem,2.8vw,2.25rem)] font-black tracking-[-0.04em] text-foreground">
               {founder.role}
             </h3>
             <p className="mt-4 text-sm leading-7 text-soft">{founder.shortBio}</p>
@@ -41,7 +41,7 @@ export default function FounderCard({ founder }: FounderCardProps) {
               href={`/founders/${founder.slug}`}
               className="rounded-full border border-white/10 bg-white/4 px-5 py-3 text-sm font-semibold text-soft transition hover:-translate-y-0.5 hover:border-accent/50 hover:text-foreground"
             >
-              View profile
+              Meet the founder
             </Link>
           </div>
         </div>

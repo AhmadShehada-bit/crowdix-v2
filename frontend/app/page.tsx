@@ -80,8 +80,8 @@ export default function Home() {
             <div className="grid gap-5 lg:grid-cols-[1.2fr_0.8fr]">
               <div className="glass-panel rounded-[32px] p-8 sm:p-10">
                 <span className="section-kicker">
-                  Archive posture
-                  <span className="text-faint">/ N° 04</span>
+                  Studio posture
+                  <span className="text-faint">/ No. 04</span>
                 </span>
                 <h2 className="section-title">
                   {homeCopy.archivePosture.title

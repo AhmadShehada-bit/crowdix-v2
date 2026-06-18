@@ -8,7 +8,7 @@ export const projects: Project[] = [
     year: "2026",
     status: "Active system",
     category: "AI automation",
-    scope: "Intake · routing · follow-up · knowledge support",
+    scope: "Intake / routing / follow-up / knowledge support",
     summary:
       "A case-study-led operator system that turns fragmented client intake, routing, and follow-up into one calm workflow with visible ownership and reusable logic.",
     challenge:
@@ -18,7 +18,7 @@ export const projects: Project[] = [
     architecture:
       "Crowdix designed a staged workflow with form intake, triage rules, tagged owner lanes, contextual prompt scaffolds, and escalation paths. The UX stayed quiet while the operational logic carried most of the complexity.",
     tags: ["Automation", "Workflow design", "Operator UX", "AI support"],
-    founderSlugs: ["ahmed-hafez", "lina-faris"],
+    founderSlugs: ["ahmed-shehada", "karam-al-hams"],
     featured: true,
     cover: {
       label: "System plate",
@@ -47,11 +47,11 @@ export const projects: Project[] = [
           "Shows what is blocked, who owns it, and where the next action belongs without building a noisy dashboard.",
       },
     ],
-    stack: ["Next.js", "TypeScript", "Tailwind CSS", "Supabase-ready schema"],
+    stack: ["Next.js", "TypeScript", "Tailwind CSS", "Structured content model"],
     outcomes: [
       { label: "Primary shift", value: "One calm intake path instead of scattered threads" },
       { label: "UX posture", value: "Operational depth without dashboard cosplay" },
-      { label: "Future-ready", value: "Prepared for Supabase storage and structured records" },
+      { label: "Future-ready", value: "Prepared for structured records and operational visibility" },
     ],
     proof: [
       {
@@ -62,7 +62,7 @@ export const projects: Project[] = [
       {
         title: "Implementation note",
         description:
-          "The frontend scaffold keeps the data model clean enough to swap mock records for Supabase-backed entities later without rewriting the route structure.",
+          "The case study model stays clean enough to grow into structured records later without changing the route hierarchy.",
       },
     ],
   },
@@ -73,9 +73,9 @@ export const projects: Project[] = [
     year: "2026",
     status: "Design direction",
     category: "AI design",
-    scope: "Identity direction · image studies · palette system",
+    scope: "Identity direction / image studies / palette system",
     summary:
-      "A premium AI design direction case focused on translating a founder’s taste into a reusable brand system with image studies, typography rules, and consistent editorial mood.",
+      "A premium AI design direction case focused on translating a founder's taste into a reusable brand system with image studies, typography rules, and consistent editorial mood.",
     challenge:
       "The studio had strong intuition but no repeatable language. Every visual decision felt isolated, making the website, pitch materials, and social assets drift apart.",
     diagnosis:
@@ -83,7 +83,7 @@ export const projects: Project[] = [
     architecture:
       "Crowdix created an editorial design framework with named visual rules, a mood spectrum, reusable type treatment, and a proof-first presentation style that could travel between surfaces.",
     tags: ["Brand systems", "AI image studies", "Editorial art direction"],
-    founderSlugs: ["lina-faris"],
+    founderSlugs: ["karam-al-hams"],
     featured: true,
     cover: {
       label: "Direction board",
@@ -138,7 +138,7 @@ export const projects: Project[] = [
     year: "2026",
     status: "Responsive website",
     category: "Web experience",
-    scope: "Portfolio architecture · long-form pages · founder credibility",
+    scope: "Portfolio architecture / long-form pages / founder credibility",
     summary:
       "An editorial website system built to carry case studies, founder pages, and capability context without drifting into a generic agency marketing template.",
     challenge:
@@ -148,7 +148,7 @@ export const projects: Project[] = [
     architecture:
       "Crowdix proposed an archive-first site model: homepage as proof wall, project pages as evidence narratives, founder pages as maker profiles, and services as supporting context.",
     tags: ["Next.js", "Editorial UX", "Responsive system", "Portfolio-first"],
-    founderSlugs: ["ahmed-hafez", "lina-faris"],
+    founderSlugs: ["ahmed-shehada", "karam-al-hams"],
     featured: false,
     cover: {
       label: "Site matrix",
@@ -167,7 +167,7 @@ export const projects: Project[] = [
           "Used flexible grid compositions and fluid type rather than static desktop-first layouts.",
       },
       {
-        name: "Content scaffolding",
+        name: "Content structure",
         summary:
           "Prepared clean data structures for case studies, people, and capabilities so content can scale without page rewrites.",
       },
@@ -177,7 +177,7 @@ export const projects: Project[] = [
           "Placed the CTA after browsing rather than interrupting the proof with premature selling.",
       },
     ],
-    stack: ["Next.js App Router", "Tailwind CSS", "TypeScript", "Static mock content"],
+    stack: ["Next.js App Router", "Tailwind CSS", "TypeScript", "Reusable content model"],
     outcomes: [
       { label: "Hierarchy", value: "Portfolio-first navigation with no fake dashboard" },
       { label: "Readability", value: "Long-form case studies that stay premium on mobile" },
@@ -203,7 +203,7 @@ export const projects: Project[] = [
     year: "2025",
     status: "Content operations",
     category: "AI content system",
-    scope: "Editorial queue · reusable prompts · approval path",
+    scope: "Editorial queue / reusable prompts / approval path",
     summary:
       "A lightweight AI-supported content engine for operators who need repeatable publishing flow, honest review checkpoints, and better coordination between draft, edit, and publish.",
     challenge:
@@ -213,7 +213,7 @@ export const projects: Project[] = [
     architecture:
       "Crowdix shaped a repeatable content queue with structured briefs, prompt templates, approval checkpoints, and artifact tracking that respected editorial judgment.",
     tags: ["Content systems", "Prompt library", "Approval flow", "Operator tooling"],
-    founderSlugs: ["ahmed-hafez"],
+    founderSlugs: ["ahmed-shehada"],
     featured: false,
     cover: {
       label: "Queue frame",
@@ -255,9 +255,9 @@ export const projects: Project[] = [
           "This case demonstrates how Crowdix approaches AI content: structured, editorial, and honest about where human review belongs.",
       },
       {
-        title: "Scaffold proof",
+        title: "Content model proof",
         description:
-          "The frontend content model already includes room for modules, outcomes, and relation fields that suit this kind of case study.",
+          "The case study structure leaves room for modules, outcomes, and relationships without cluttering the reading experience.",
       },
     ],
   },
